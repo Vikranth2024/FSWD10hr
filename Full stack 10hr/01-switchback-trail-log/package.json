@@ -1,0 +1,21 @@
+{
+  "name": "switchback-trail-log",
+  "version": "1.0.0",
+  "description": "Switchback — layered trail-summit log API (routes -> controller -> repository).",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "npm i && node spec/run-jasmine.js"
+  },
+  "keywords": ["nodejs", "express", "rest-api", "layered", "controllers", "repository"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jasmine": "^5.1.0",
+    "jasmine-reporters": "^2.5.2",
+    "supertest": "^6.3.4"
+  }
+}

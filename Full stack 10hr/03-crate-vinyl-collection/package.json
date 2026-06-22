@@ -1,0 +1,21 @@
+{
+  "name": "crate-vinyl-collection",
+  "version": "1.0.0",
+  "description": "Crate — vinyl-record collection API with a routes/controller/service/repository layering and a business rule.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "npm i && node spec/run-jasmine.js"
+  },
+  "keywords": ["nodejs", "express", "service-layer", "layered", "business-rules"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jasmine": "^5.1.0",
+    "jasmine-reporters": "^2.5.2",
+    "supertest": "^6.3.4"
+  }
+}
